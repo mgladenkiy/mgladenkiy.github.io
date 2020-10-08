@@ -1,9 +1,0 @@
-h1, h3 {
-	text-align: center;
-}
-body {
-	background-color: #a074c2
-}
-.back:before {
-	content: '\2190';
-}
