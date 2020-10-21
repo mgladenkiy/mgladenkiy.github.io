@@ -1,0 +1,32 @@
+.wrap {
+	width: 73%;
+	height: 700px;
+	margin: auto;
+}
+.card {
+	border: 2px solid grey;
+	width: 400px;
+	height: 450px;
+	float: left;
+	margin: 30px;
+	border-radius: 20px;
+	overflow: auto;
+	padding: 10px;
+}
+img {
+	width: 250px;
+	display: block;
+	margin: auto;
+}
+h3 {
+	text-align: center;
+}
+.but {
+	width: 80px;
+	height: 30px;
+	float: right;
+	background-color: grey;
+	padding-top: 15px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
