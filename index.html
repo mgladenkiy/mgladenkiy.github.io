@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Соцiальна реклама</title>
+	<link rel="preconnect" href="https://fonts.gstatic.com"> 
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@600&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+	<style>
+		@keyframes anim1{
+			0%{content: '\1F30E Збережи ліс!';}
+			33%{content: '\1F30E Збережи ліс!';}
+			34%{content: '\1F30E Не залишай сміття!';}
+			66%{content: '\1F30E Не залишай сміття!';}
+			67%{content: '\1F30E Гаси полум`я!';}
+			100%{content: '\1F30E Гаси полум`я!';}
+		}
+		@keyframes anim2{
+			0%{content: '\f1bb'; color: green;}
+			33%{content: '\f1bb'; color: green;}
+			34%{content: '\f1f8'; color: gray;}
+			66%{content: ' \f1f8'; color: gray;}
+			67%{content: '\f134'; color: darkred;}
+			100%{content: ' \f134'; color: darkred;}
+		}
+		.par1{
+			text-align: center;
+			font-size: 3em;
+			font-family: 'Roboto Slab', serif;
+		}
+		.par1:before{
+			content: '\1F525';
+			animation: anim1 3s infinite;
+		}
+		.fire{
+			text-align: center;
+			font-size: 3em;
+		}
+		.fire:before{
+			content: '\f06d';
+			animation: anim2 3s infinite;
+		}
+		div{
+			background-color: orange;
+			width: 50%;
+			margin: auto;
+			text-align: center;
+			padding-bottom: 20px;
+			background-image: radial-gradient(at top right, #bd5a13, orange);
+		}
+	</style>
+</head>
+<body>
+	<div class="box">
+		<p class="par1"></p>
+		<i class="fas fire"></i>
+	</div>
+</body>
+</html>
